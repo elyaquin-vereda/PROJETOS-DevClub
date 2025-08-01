@@ -1,0 +1,143 @@
+* { 
+    color: blue;
+} /* isso do asteristico quer dizer tudo*/ 
+/*seletores, esse primeiro é o id, é uma identificação do que você quer encontrar e é mellhor para encontrar e localizar, segundo é a classe aonde voce pode usar em todos*/
+#titulo, #pp {
+color: chocolate;
+background: blue;
+}
+.tt {
+    background: rgb(222,55 ,44);
+}
+/* margin:é o espaçamento entre os elemntos  e padding: ele  cresce dentro pra fora*/ 
+h1{
+    width: 38px;
+    height: 74px ;
+    margin: 40px ;
+    padding: 80px;
+    /* existem tambem voce selecionar o quanto voce quer adicionar, nessa margem ou padding, serve pros dois o exemplo do atalho*/
+    margin-top: 90px;
+    margin-bottom: 90px;
+    margin-left: 0ch;
+    margin-right: 0cqw;
+}
+
+/*box-sizing: veja.*/
+* {
+    box-sizing: border-box; /*melhor usar esse do que content-box*/
+}
+/***
+
+UNIDADES DE MEDIDAS
+
+I
+
+->
+
+ABSOLUTAS
+
+px (pixels).
+
+in (inches/polegadas)
+
+cm/mm(centímetro / milímetro)
+
+->
+
+RELATIVAS
+
+%calcula o tamanho relativo ao elemento pai
+
+vw(view width) 1vw 1% da largura da janela do navegador- se adapta para o tamanho da tela (mais recomendado)
+
+vh (view height) 1vh é 1% da altura da janela do navegador- se adapta para o tamanho da tela (mais recomendado)
+
+em é uma unidade relativa ao elemento pai
+
+rem é uma unidade relativa ao elemento raiz*/ 
+
+
+/*BLOCK*/
+
+
+/*Vem como padrão: div, section, p, h1, h2, ul, li, article...
+
+
+Ocupa 100% da largura do elemento pai
+
+Sempre ocupa toda a sua linha
+
+Altura definida de acordo com o conteúdo
+
+Podemos definir height e width
+
+Podemos definir valores de margin
+
+
+
+/*INLINE
+
+
+
+Vem como padrão a, span, b, 1...
+
+
+I Elementos em linha
+
+Não permite alterar height e width
+
+Não podemos definir valores de margin-top e-bottom
+
+-Ganha comportamento de uma palavra 
+
+Elementos em linha, porém com característica do display Block
+
+Altura e largura podem ser alteradas.*/ 
+
+/*. VAMOS . FALAR .DE .POSITION.
+
+..
+
+postion: static (padrao) - Nao aceitas .valores .de top, bottom, right e left.
+postion: fixed - fixa .o .elemento na .tela
+postion: sticky - age como . um adesivo, fixa o elemento so .onde .eu determinar
+postion: relative - posição relativa a posição inicial dele
+postion: absolute - posição absoluta(fixa) a algum elemento ou a pagina
+SE.nao tiver pai / pai for static -> Posiciona referente a pagina
+.-. Se.o.pai .NÃO .for static -> Posiciona referente ao pai
+
+propriedades:
+top
+·bottom
+.left
+right
+
+*/
+/*: checked .- usado .em. radio / checkbox ./ select
+: disabled - elemento desabilitado / button / input
+: enabled - elemento esta habilitado
+: focus- é aplicada quando um elemento recebe foco, o que pode ocorrer quando o usuario seleciona o elemento
+: read-only - seleciona input ou.textarea que sao apenas leitura
+: empty .- elemento .que nao .tem . filho
+
+: last-child - último filho
+: last-of-type - último elemento de seu tipo entre os filhos .de seu elemento pai
+:not() - estiliza os elementos, exceto o que esta dentro.do .()
+:nth-child() -seleciona o elemento baseado na sua posição. Ex: :nth-child(3)
+:nth-last-child() - seleciona o elemento baseado na sua posição, contando de tras para frente.
+
+/* PSEUDO · CLASSES
+
+:active - quando o elemento está ativo, ou seja, está sendo pressionado
+:visited - seleciona o link que foi visitado
+: hover - quando o mouse passe em cima do .elemento
+
+:first-child - primeiro filho / ex: primeira li de uma ul / primeiro span de uma div
+:first-of-type - primeiro elemento de seu.tipo entre os filhos .de seu elemento .pai.
+
+*/
+@media (max-width ou min-width :660px) {
+    div { /* ele vai se adaptando tamanho de tela*/
+  
+    }
+}
