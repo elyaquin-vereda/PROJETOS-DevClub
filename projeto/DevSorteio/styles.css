@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+} 
+body {
+    background:black;
+}
+img {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+#minimo, #máximo {
+    display:inline-block;
+    width:242px;
+    height: 38px;
+    margin-left: 350px;
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: rgba(255, 255, 255, 0.25);
+
+}
+button{
+    margin-left: 650px;
+    margin-top: 50px;
+    display: block;
+    border-radius: 10px;
+    background: #AEC346;
+    box-shadow: 0 18px 40px 0 rgba(174, 195, 70, 0.35);
+    width: 202px;
+    height: 42px;
+    color: #FFF;
+    border: none;
+}
